@@ -13,7 +13,9 @@ Hiện tại chỉ có 2 sản phẩm: Mango(id=1), và Orange(id=2)
 
 # Tạo order
 Url: https://wegiamcan.com/order
+
 Method: Post
+
 Request params:
 ```
 date: integer required(từ 1-365)
@@ -33,7 +35,9 @@ Ví dụ:
 
 # Get report
 Url: http://vinbdi.local/report
+
 Method: Get
+
 Request params:
 ```
 	from: integer optional (mặc định là 0)
