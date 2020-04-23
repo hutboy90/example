@@ -9,8 +9,10 @@ Khi tạo một order thì client sẽ truyền:
 
 trong đó `fruits` là 1 danh sách các phần tử có dạng: `product_id: amount`
 
+Hiện tại chỉ có 2 sản phẩm: Mango(id=1), và Orange(id=2)
+
 # Tạo order
-Url:
+Url: https://wegiamcan.com/order
 Method: Post
 Request params:
 ```
@@ -21,10 +23,16 @@ fruits: json required
 *Chú ý*: với 2 trường product_id và amount trong `fruits`
 + product_id phải tồn tại trong database
 + chú ý amount nằm trong khoảng 0-100. E quy định kích thước sản phẩm lớn nhất là 100kg
-
+Ví dụ:
+```
+{
+	"date": 3,
+	"fruits" : {"1": 1, "2":2}
+}
+```
 
 # Get report
-Url:
+Url: http://vinbdi.local/report
 Method: Get
 Request params:
 ```
