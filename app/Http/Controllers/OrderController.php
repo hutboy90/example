@@ -47,7 +47,7 @@ class OrderController extends BaseController
                 ]);
             }
         } catch (\Throwable $th) {
-            return $this->responseService->response($th->getMessage(), 400);
+            return $this->responseService->response("Params is invalid", 400);
         }
 
         # Create order
@@ -70,7 +70,7 @@ class OrderController extends BaseController
             return $this->responseService->response('success');
         } catch (\Throwable $th) {
             DB::rollBack();
-            return $this->responseService->response($th->getMessage(), 400);
+            return $this->responseService->response("Params is invalid", 400);
         }
     }
 
