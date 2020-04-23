@@ -34,7 +34,7 @@ Ví dụ:
 ```
 
 # Get report
-Url: http://vinbdi.local/report
+Url: https://vinbdi.local/report
 
 Method: Get
 
