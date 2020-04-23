@@ -45,3 +45,8 @@ Request params:
 ```
 
 *Chú ý*: from và to nằm trong đoạn [1-365]
+
+# Unit test
+Nằm ở đây: https://github.com/hutboy90/example/tree/master/tests
+
+Function get report chưa đầy đủ cases 
