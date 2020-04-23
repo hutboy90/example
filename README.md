@@ -49,4 +49,4 @@ Request params:
 # Unit test
 Nằm ở đây: https://github.com/hutboy90/example/tree/master/tests
 
-Function get report chưa đầy đủ cases 
+Function get report chưa đầy đủ test cases 
