@@ -11,7 +11,7 @@ trong đó `fruits` là 1 danh sách các phần tử có dạng: `product_id: a
 
 Hiện tại chỉ có 2 sản phẩm: Mango(id=1), và Orange(id=2)
 
-![alt text](https://drive.google.com/file/d/1uPWjkbZIrhcRzhP45ybvqr7-PIX86Dmv/view?usp=sharing)
+![Biểu đồ ](https://imgur.com/Jo7qx0O)
 
 # Tạo order
 Url: https://wegiamcan.com/order
